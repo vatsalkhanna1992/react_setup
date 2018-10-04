@@ -1,7 +1,7 @@
 # react_setup
 React.js environment setup and installation
 
-# Run the following commands in your terminal:
+### Run the following commands in your terminal:
 
 1. mkdir react-setup
 
@@ -19,7 +19,7 @@ React.js environment setup and installation
 
 8. npm run buid
 
-# Create index.html file:
+### Create index.html file:
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,13 +32,13 @@ React.js environment setup and installation
 </body>
 </html>
 
-# Create one file in root directory called .babelrc:
+### Create one file in root directory called .babelrc:
 {
   "presets": ["es2015", "react", "stage-3"]
 }
 
 
-# Your package.json file should look like this:-
+### Your package.json file should look like this:-
 {
   "name": "react-environment",
   "version": "1.0.0",
@@ -66,7 +66,7 @@ React.js environment setup and installation
 
 
 
-# Configure webpack.config.js file in a root directory:
+### Configure webpack.config.js file in a root directory:
 module.exports = {
     entry: './app/main.js',
     output: {
